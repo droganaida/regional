@@ -1,0 +1,18 @@
+{
+  "name": "gitscheinlike-regional",
+  "version": "1.0.0",
+  "description": "regionale gutscheine",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node --nouse-idle-notification --expose-gc app.js",
+    "pro": "cross-env NODE_ENV=production node --nouse-idle-notification --expose-gc app.js"
+  },
+  "author": "Aida Drogan",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "5.0.5",
+    "ejs": "2.5.7",
+    "express": "4.15.4",
+    "mongoose": "4.9.0"
+  }
+}
